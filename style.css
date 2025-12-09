@@ -1,0 +1,21 @@
+/* === R7 full-body skin for PS4 (DS4) on GPV 2 === */
+
+/* Put the R7 lightning image as the background */
+.controller {
+    background-image: url("https://cdn.discordapp.com/attachments/1160239052960837794/1447629981675950222/image.jpg?ex=6938fabb&is=6937a93b&hm=dae1b8560b58f23cb537433ef5553d1bdd79f7d13411d60aeb8e03b9cbca1abb") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+/* Hide the default controller graphics */
+.controller .body,
+.controller .touchpad,
+.controller .face,
+.controller .bumpers,
+.controller .triggers,
+.controller .grip,
+.controller .stick,
+.controller .dpad {
+    opacity: 0 !important;
+}
